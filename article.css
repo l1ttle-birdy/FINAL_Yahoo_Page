@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+  height:310%;
+  width:100%;
+  margin:0;
+  padding-bottom: 60px;
+
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  background-color:white;
+   padding-top: 110px;
+}
+
+
+/* TEXT*/
+
+h1{
+  margin: 0;
+  }
+
+h2{
+  font-size:45px;
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color:black;
+  margin: 0
+}
+
+
+h3{
+  font-size:25px;
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color:black;
+margin: 0;}
+
+
+.paragraph{
+  font-size: 20px;
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
+
+    display: block;
+width: 100%;
+}
+
+.lstparagraph{
+  font-size: 17px;
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+
+
+
+
+.linkpara{
+  font-size: 17px;
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
+  color: #7D2EFF;
+}
+
+
+
+.sourcelink {
+  color:  #7D2EFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+/*HEADER*/
+
+
+.header{
+  top:0;
+   padding-top:10px;
+
+  position:fixed;
+  background-color: #7D2EFF;
+  height:100px;
+  width:100%;
+
+  z-index:1000;
+
+  display:flex;
+  flex-wrap:nowrap;
+}
+
+    .headertitle{
+      margin-left: 40px;
+      align-content: center;
+
+      font-size: 40px;
+      flex-grow:9;
+
+    }
+
+    .headerbutton{
+      align-content: center;
+
+
+      flex-grow:0.3;
+
+    }
+
+    .headericon{
+      align-content: center;
+
+      flex-grow:0.5;
+
+    }
+
+          .button1{
+            font-size: 20px;
+            border:none;
+            padding:10px 35px 10px 35px;
+            background-color: white;
+            border-radius:45px;
+            color: black;
+            text-decoration: none;
+          }
+
+
+        .button1:hover{
+          background-color:#A571FF;
+          color:white;
+          transition:0.5s}
+
+
+
+
+          .button2{
+            position: absolute;
+            margin-top:2px;
+            margin-right:2px;
+            right: 0;   
+            font-size: 20px;
+            border:none;
+            padding:10px 35px 10px 35px;
+            background-color: #7D2EFF;
+            border-radius:45px;
+          }
+          
+
+/*Nav bar AND News Section */
+
+
+.content{
+    background-color: #F9F5FF;
+    border-radius: 20px;
+
+
+  height:auto;
+  width:auto;
+
+  padding-left:2%;
+  padding-right:2%;
+  padding-top:20px;
+
+  margin-left: 13%;
+  margin-right:13%;
+   margin-top: 60px;
+
+  display:flex;
+  flex-wrap: wrap;
+
+  gap:25px;
+  
+}
+
+.article{
+
+  width: 1000px;
+  display: flex;
+
+  align-items: center;  
+  flex-wrap: wrap;    
+  display: block;
+
+gap:25px;
+}
+
+.articlename{
+  height: auto;
+}
+
+
+.artiimg{
+  width: 100%;
+  height: auto;
+  min-width: 0;
+
+
+  display: flex;
+  padding-top:10px ;
+  margin-bottom: 60px;
+
+  align-items: center;    
+}
+
+
+.artiimg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+          .button3{
+            width:100%;
+          border:none;
+          margin-left:0;
+          margin-top:5px;
+
+          text-align: left;
+          font-size: 25px;
+          padding:10px 5px 10px 5px;
+          background-color: #F9F5FF;
+          border-radius:10px;
+
+          }
+
+            .button3:hover {
+              background-color: #7D2EFF;
+                color: white;
+
+                transition:0.5s;
+            }
+
+
+
+@media screen and (max-width: 1080px) {
+
+  .content{
+    margin-left: 7%;
+    margin-right:7%;
+  }
+
+    .trendingsection{
+      align-content: center;
+
+      padding:15px 15px 15px 10px;
+      
+
+      height:auto;
+      width:300px;
+      border-radius:10px;
+
+      font-size: 40px;
+      flex-grow:2;
+
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+.search-container input{
+  width:350px;}
+
+        .newsselection{ 
+          width: 24%;
+          }
+
+              .imagediv{
+                width:30%;
+                }
+  
+}

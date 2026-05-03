@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+	height:100%;
+	width:100%;
+	margin:0;
+
+	  font-family: "IBM Plex Sans Devanagari", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+
+	background-color:white;
+}
+
+
+/* TEXT*/
+
+h1{margin: 0;}
+
+		h2{font-size: 50px;
+			font-family: "IBM Plex Sans Devanagari", sans-serif;
+			  font-weight: bold;
+			  font-style: normal;
+			  margin:0;} 
+			
+
+		h3{
+			font-size: 23px;
+			font-family: "IBM Plex Sans Devanagari", sans-serif;
+			  font-weight: 400;
+			  font-style: normal;
+			  margin:0;
+			}
+
+			  .light{ font-size: 30px;
+			font-family: "IBM Plex Sans Devanagari", sans-serif;
+			  font-weight: 400;
+			  font-style: normal;
+			  margin:0;
+			  display: block;} 
+
+
+
+			  .bold{ font-size: 35px;
+			font-family: "IBM Plex Sans Devanagari", sans-serif;
+			  font-weight: bold;
+			  font-style: normal;
+			  margin:0;
+			  display: inline;
+			  float:;
+			} 
+
+
+.slink {
+ margin:0;
+}
+
+			
+
+/*HEADER*/
+
+
+.header{
+	padding-top:10px;
+
+	position:fixed;
+	background-color: #7D2EFF;
+	height:100px;
+	width:100%;
+	    top: 0;
+    	left: 0;
+
+	display:flex;
+	flex-wrap:nowrap;
+}
+
+		.headertitle{
+			margin-left: 40px;
+			align-content: center;
+
+			font-size: 40px;
+			flex-grow:9;
+
+		}
+
+		.headerbutton{
+			align-content: center;
+
+
+			flex-grow:0.3;
+
+		}
+
+		.headericon{
+			align-content: center;
+
+			flex-grow:0.5;
+
+		}
+
+					.button1{
+						font-size: 20px;
+						border:none;
+						padding:10px 35px 10px 35px;
+						background-color: white;
+						border-radius:45px;
+						text-decoration: none;
+						color: black;
+					}
+
+
+				.button1:hover{
+					background-color:#A571FF;
+					color:white;
+					transition:0.5s}
+
+
+
+
+/*Content*/
+
+.data-row {
+    pointer-events: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    padding: 0 20px;
+}
+
+			.newsselection{ 
+						position: fixed;
+						top:57%;
+						left: 13%;
+
+						padding: 20px;
+					height: 20%;
+					width: 16%;
+
+					border-radius: 20px;
+
+					font-size: 40px;
+					}
+
+
+
+
+.content{
+	margin-left:9%;
+	background-color: #F9F5FF;
+		display: flex;
+		  flex-direction: column;
+		border-radius: 20px;	
+		height:100%;
+		margin-top: 160px;
+
+		padding-bottom: 70px;
+		left:2%;
+		width: 80%;
+
+}
+
+
+
+				.account{
+					 width: 90%;
+					 height:100%;
+					 margin-top: 2%;
+					 margin-left: 5%;
+					 padding: 10px;
+					 text-align: center;  
+					 font-size: 30px;
+				}
+
+						.headingdiv{
+							width:100%;
+
+							text-align:left;
+							margin-top: 3%;
+						}
+
+						.icondiv{
+							padding-top:10px;
+							margin-top: 3%;
+							width:350px;	
+							float:left;
+						}
+
+						.emaildiv{
+							width:100%;	
+							margin-top: 7%;
+							text-align: left;
+
+						}
+
+/*Fill out Section */
+
+
+.fillout{
+
+	display:flex;
+	flex-wrap:nowrap;
+		margin-left:23%;
+		display: flex;
+		  flex-direction: column;
+		border-radius: 20px;	
+		height:400px;
+		margin-top: 50px;
+		width: 70%;
+}
+				.userdiv{
+						background-color: white;
+						width:90%;	
+						height:15%;	
+						margin-top: 7%;
+						text-align: left;
+							border-radius: 30px;
+							padding-left:2%}
+
+				.phonediv{
+					background-color: white;
+					height:15%;
+						width:90%;	
+						margin-top: 2%;
+						text-align: left;
+						border-radius: 30px;
+						padding-left:2%
+				}
+
+				.pronoundiv{
+					background-color: white;
+					height:15%;
+						width:90%;	
+						margin-top: 2%;
+						text-align: left;
+						border-radius: 30px;
+						padding-left:2%
+				}
+
+				.bdaydiv{
+					background-color: white;
+					height:15%;
+						width:90%;	
+						margin-top: 1%;
+						text-align: left;
+						border-radius: 30px;
+						padding-left:2%
+				}
+
+						.filloutsectdiv{
+						background-color: white;
+						height:15%;
+						width:100%;	
+						margin-top: 2%;
+						text-align: left;
+						border-radius: 30px;
+						padding-left:2%
+							}
+
+
+/* link style */
+
+					.buttonlink{
+  				display: block;          
+  				text-align: center;
+ 				background-color: #552A9A;
+ 			 	border-radius: 30px;
+  				width: 90%;
+  				padding: 12px 0;        
+  				margin-top: 23px;
+  				color: white;
+  				text-decoration: none; 
+					}
+
+						.buttonlink:hover {
+							background-color: #7D2EFF;
+	  						color: white;
+
+	  						transition:0.5s;
+						}
+
+						a{
+							margin:0;
+						}
+
+
+@media screen and (max-width: 1080px) {
+
+
+
+.content{
+	margin-left:9%;
+	height: 100%;
+		left:2%;
+		width: 80%;
+		padding-bottom:0;
+}
+
+				.account{
+					 width: 90%;
+					 height:100%;
+					 margin-top: 0.2%;
+					 margin-left: 5%;
+					 padding: 10px;
+					 text-align: center;  
+					 font-size: 30px;
+				}
+
+				.newsselection{ 
+
+						top:48%;
+						left: 10%;
+
+					height: 20%;
+					width: 73%;
+
+					}
+
+						a{
+ 			display: inline-block;
+  				width: 30%;
+  				  margin-right: 2%;
+
+					}
+
+.fillout{
+		margin-left:1%;
+		height:400px;
+		margin-top: 300px;
+		width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+/*Text*/
+  .light{ font-size: 20px;} 
+
+	.bold{ font-size: 25px;} 
+
+								.icondiv{
+							padding-top:10px;
+							margin-top: 3%;
+							width:520px;	
+							align-content: center;
+						}
+
+
+				.newsselection{ 
+
+						top:650px;
+						left: 10%;
+
+						padding: 20px;
+
+					height: 20%;
+					width: 73%;
+					}
+
+					
+
+.content{
+	margin-left:9%;
+	height: 100%;
+		left:2%;
+		width: 80%;
+
+		padding-bottom:0;
+}
+
+
+
+.fillout{
+
+		margin-left:1%;
+		display: flex;
+		  flex-direction: column;
+		border-radius: 20px;	
+		height:400px;
+		margin-top: 100px;
+		width: 100%;
+}
+
+
+}

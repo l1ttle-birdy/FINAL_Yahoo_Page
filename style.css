@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+	height:310%;
+	width:100%;
+	margin:0;
+	padding-bottom: 60px;
+
+	  font-family: "IBM Plex Sans Devanagari", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+
+	background-color:white;
+}
+
+
+/* TEXT*/
+
+h1{
+	margin: 0;
+	}
+
+h2{
+	font-size:25px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color:black;
+	text-decoration: none;
+}
+
+				h2:hover{
+			 	color: #7D2EFF;
+			 	text-decoration: underline;
+	  			transition:0.5s;
+
+					}
+
+h3{
+	font-size:25px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color:black;}
+
+
+.paragraph{
+	font-size: 17px;
+	font-family: "IBM Plex Sans Devanagari", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+	a{
+	color: #7D2EFF;
+	}
+
+
+
+/*HEADER*/
+
+
+.header{
+	 padding-top:10px;
+
+	position:fixed;
+	background-color: #7D2EFF;
+	height:100px;
+	width:100%;
+
+	z-index:1000;
+
+	display:flex;
+	flex-wrap:nowrap;
+}
+
+		.headertitle{
+			margin-left: 40px;
+			align-content: center;
+
+			font-size: 40px;
+			flex-grow:9;
+
+		}
+
+		.headerbutton{
+			align-content: center;
+
+
+			flex-grow:0.3;
+
+		}
+
+		.headericon{
+			align-content: center;
+
+			flex-grow:0.5;
+
+		}
+
+					.button1{
+						font-size: 20px;
+						border:none;
+						padding:10px 35px 10px 35px;
+						background-color: white;
+						border-radius:45px;
+
+					}
+
+
+				.button1:hover{
+					background-color:#A571FF;
+					color:white;
+					transition:0.5s}
+
+
+/*Search bar*/
+
+
+.searchbar {
+	height:250px;
+	flex: 1;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+}
+
+.search-container{
+	position: relative;
+	display: flex;
+	flex-wrap:nowrap;
+
+	align-content: center;
+	margin-top:100px;
+	background-color: white;
+
+	border-radius: 30px;
+
+	box-shadow:0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input{
+	width:850px;
+	font-size:18px;
+	padding:16px 24px;
+	border-radius: 30px;
+	border:none;
+
+}
+
+
+					.button2{
+						position: absolute;
+						margin-top:2px;
+						margin-right:2px;
+						right: 0;   
+						font-size: 20px;
+						border:none;
+						padding:10px 35px 10px 35px;
+						background-color: #7D2EFF;
+						border-radius:45px;
+					}
+					
+
+/*Nav bar AND News Section */
+
+
+.content{
+		background-color: #F9F5FF;
+		border-radius: 20px;
+		margin-top: 60px;
+	height:auto;
+	width:auto;
+	padding-top:20px;
+margin-left: 500px;
+margin-right:7%;
+	display:flex;
+	flex-wrap: wrap;
+	padding-left:2%;
+	gap:25px;
+	
+}
+
+
+					.newsselection{ 
+						position: fixed;
+						left: 2%;
+
+						padding: 20px;
+					background-color: #F9F5FF;
+
+					height: 750px;
+					width: 13%;
+
+					border-radius: 20px;
+
+					font-size: 40px;
+					}
+
+
+							.imagediv{
+								width:110%;
+								}
+
+								.headingdiv{
+								width:110%;
+								}
+
+
+								.textdiv{
+								width:110%;
+								}
+
+
+		.trendingsection{
+			align-content: center;
+
+			padding:15px 15px 15px 10px;
+			
+
+			height:auto;
+			width:300px;
+			border-radius:10px;
+
+			font-size: 40px;
+			flex-grow:2;
+
+			margin-right: 80px;
+
+		}
+
+
+
+					.button3{
+						width:100%;
+					border:none;
+					margin-left:0;
+					margin-top:5px;
+
+					text-align: left;
+					font-size: 25px;
+					padding:10px 5px 10px 5px;
+					background-color: #F9F5FF;
+					border-radius:10px;
+
+					}
+
+						.button3:hover {
+							background-color: #7D2EFF;
+	  						color: white;
+
+	  						transition:0.5s;
+						}
+
+
+
+@media screen and (max-width: 1080px) {
+
+	.content{
+		margin-left: 250px;
+		margin-right:7%;
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+.search-container input{
+	width:350px;}
+
+				.newsselection{ 
+					width: 24%;
+					}
+	
+}

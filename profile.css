@@ -327,10 +327,14 @@ h1{margin: 0;}
 .fillout{
 		margin-left:1%;
 		height:400px;
-		margin-top: 300px;
+		margin-top: 200px;
 		width: 100%;
 }
 
+					.buttonlink{
+  				display: inline-block;          
+  				width: 30%;
+					}
 
 }
 
@@ -353,7 +357,7 @@ h1{margin: 0;}
 
 				.newsselection{ 
 
-						top:650px;
+						top:590px;
 						left: 10%;
 
 						padding: 20px;
@@ -363,6 +367,17 @@ h1{margin: 0;}
 					}
 
 					
+					.buttonlink{
+  				display: inline-block;          
+  				text-align: center;
+ 				background-color: #552A9A;
+ 			 	border-radius: 30px;
+  				width: 30%;
+  				padding: 12px 0;        
+  				margin-top: 23px;
+  				color: white;
+  				text-decoration: none; 
+					}
 
 .content{
 	margin-left:9%;
@@ -381,7 +396,7 @@ h1{margin: 0;}
 		display: flex;
 		  flex-direction: column;
 		border-radius: 20px;	
-		height:400px;
+		height:350px;
 		margin-top: 100px;
 		width: 100%;
 }

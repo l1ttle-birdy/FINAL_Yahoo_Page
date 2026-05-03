@@ -325,7 +325,9 @@ gap:25px;
 
 
 @media screen and (max-width: 800px) {
-
+  .emailselection{ 
+    width:21%;
+  }
 
 }
 
